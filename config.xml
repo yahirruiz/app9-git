@@ -11,7 +11,7 @@ version = "1.0.0">
  Aplicacion que muestra la ubicacion del dispositivo deacuerdo al GPS
  </description>
  
- <author href="https://build.poneghap.com" email = "yahirruizmen0@gmail.com">
+ <author href="https://build.phoneghap.com" email = "yahirruizmen0@gmail.com">
  	Yahir Ruiz Mendez
 	</author>
 	
@@ -24,25 +24,15 @@ version = "1.0.0">
 	<perference name="android-installLocation"  value="auto"/>	
 	<perference name="permissions"  value="INTERNET"/>
 	
-	
 	<!-- Plugins -->
 	<!--Core plugins-->
 	<plugin name="cordova-plugin-device" spec="~1.1.4"/>
 	<plugin name="cordova-plugin-vibration" spec="~2.1.3"/>
 	<plugin name="cordova-plugin-dialogs" spec="~1.3.1"/>
 	
-	<!--plugin name="cordova plugin-inappbrowser" spec="~1.0.7/>-->
 	<!--Plugin para geolocalizar-->
 	<plugin name="cordova-plugin-geolocation" spec="2.4.3"/>
-	<!-- Third part plugins -->
 	
-	<!--p<ra accesar a paginas de internet-->
-	 <allow-internet href="https://*/*"/>
-	 <acces origin="https://*/*"/>
-	 <allow-internet href="http://*/*"/>
-	 <acces origin="http://*/*"/>
-	 <plugin name="cordova-plugin-whitelist" source="npm"/>
-	 
 	<!-- Colocar icono app -->
 	
 	<icon src="res/android/mdpi.png"/>
